@@ -1,0 +1,30 @@
+{
+  "name": "@urc/eslint-plugin",
+  "version": "0.0.0-0",
+  "description": "eslint plugin for URC(universal react component)",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "薛定谔的猫",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "peerDependencies": {
+    "eslint": "4.x || 5.x"
+  },
+  "dependencies": {
+    "requireindex": "^1.2.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "eslint": "^5.0.0-rc.0",
+    "mocha": "^5.2.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "license": "ISC"
+}

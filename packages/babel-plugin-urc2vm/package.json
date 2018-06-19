@@ -1,0 +1,28 @@
+{
+  "name": "@urc/babel-plugin-urc2vm",
+  "version": "0.0.0-0",
+  "author": "薛定谔的猫 <hh_2013@foxmail.com>",
+  "description": "babel-plugin for urc to vm",
+  "main": "./dist/lib.min.js",
+  "module": "./dist/lib.esm.js",
+  "scripts": {
+    "test": "mocha tests/**/*"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "lib"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "keywords": [
+    "Node.js",
+    "boilerplate"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}
