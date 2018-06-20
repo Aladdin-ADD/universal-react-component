@@ -17,11 +17,11 @@
 
 ## WHY?
 
-react的同构在某些场景下尤其重要（比如电商），而传统的react组件由于 jsx 的语法极度灵活，增加了同构的难度。
+同构在某些场景下尤其重要（比如电商），而传统的react组件由于 jsx 的语法极度灵活，增加了同构的难度。
 我们尝试对 jsx 的能力加上限制，从而使编写的 react 组件可以在多端(browser、webworker、server)渲染，从而支持MSR(mixed-side-render)。最终达到：首屏组件通过 ssr/sw 渲染，其余部分通过浏览器端渲染。
 
 ## HOW?
-URC(universal-react-component)的组件要满足以下条件
+URC组件(universal-react-component) 要满足以下条件
 
 + 不使用 DOM
 + 不使用 BOM，比如 history、location
