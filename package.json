@@ -20,7 +20,7 @@
     "eslint": "^5.0.0-alpha.3",
     "eslint-config-egg": "^7.0.0",
     "eslint-plugin-node": "^6.0.1",
-    "husky": "^1.0.0-rc.7",
+    "husky": "^1.0.0-rc.9",
     "mocha": "^5.2.0",
     "rollup": "^0.59.2",
     "rollup-plugin-buble": "^0.19.2",
