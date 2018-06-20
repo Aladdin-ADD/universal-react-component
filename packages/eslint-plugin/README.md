@@ -1,4 +1,4 @@
-# eslint-plugin-urc
+# @urc/eslint-plugin
 
 eslint plugin for URC(universal react component)
 
