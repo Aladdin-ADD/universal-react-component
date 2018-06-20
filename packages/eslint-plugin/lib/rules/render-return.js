@@ -33,7 +33,12 @@ module.exports = {
     //----------------------------------------------------------------------
     // Public
     //----------------------------------------------------------------------
-
+    function report(node) {
+      context.report({
+        node: node.value.body,
+        message: 'only return statement is allowed in render function.',
+      });
+    }
     return {
 
       // give me methods
@@ -42,16 +47,10 @@ module.exports = {
         if (node.key.type === 'Identifier' && node.key.name === 'render') {
           // TODO: check null
           if (node.value.body.body.length > 1) {
-            return context.report({
-              node: node.value.body,
-              message: 'only return statement is allowed in render function.',
-            });
+            return report(node);
           }
           if (node.value.body.body.length === 1 && node.value.body.body[0].type !== 'ReturnStatement') {
-            return context.report({
-              node: node.value.body,
-              message: 'only return statement is allowed in render function.',
-            });
+            return report(node);
           }
         }
       },
