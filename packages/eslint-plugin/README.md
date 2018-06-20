@@ -4,16 +4,8 @@ eslint plugin for URC(universal react component)
 
 ## Installation
 
-You'll first need to install [ESLint](http://eslint.org):
-
-```
-$ npm i eslint --save-dev
-```
-
-Next, install `eslint-plugin-urc`:
-
-```
-$ npm install eslint-plugin-urc --save-dev
+```bash
+$ npm i eslint eslint-plugin-urc -D
 ```
 
 **Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-urc` globally.
@@ -36,7 +28,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "urc/rule-name": 2
+        "urc/render-return": 2
     }
 }
 ```
