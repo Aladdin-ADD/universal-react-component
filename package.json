@@ -3,18 +3,9 @@
   "version": "0.0.0",
   "author": "薛定谔的猫 <hh_2013@foxmail.com>",
   "description": "Node.js boilerplate",
-  "main": "./dist/lib.min.js",
-  "module": "./dist/lib.esm.js",
   "scripts": {
-    "lint": "eslint packages",
-    "test": "npm run build && mocha tests/**/*",
-    "build": "rollup -c rollup.config.js"
+    "lint": "eslint packages"
   },
-  "files": [
-    "LICENSE",
-    "README.md",
-    "dist"
-  ],
   "dependencies": {},
   "devDependencies": {
     "eslint": "^5.0.0-alpha.3",
