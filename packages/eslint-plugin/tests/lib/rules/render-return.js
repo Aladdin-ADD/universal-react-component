@@ -1,6 +1,6 @@
 /**
  * @fileoverview urc render
- * @author render-return
+ * @author 唯然<weiran.zsd@alibaba-inc.com>
  */
 'use strict';
 
@@ -8,9 +8,8 @@
 // Requirements
 //------------------------------------------------------------------------------
 
-const rule = require('../../../lib/rules/render-return'),
-
-  RuleTester = require('eslint').RuleTester;
+const rule = require('../../../lib/rules/render-return');
+const RuleTester = require('eslint').RuleTester;
 
 
 //------------------------------------------------------------------------------

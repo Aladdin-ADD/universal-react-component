@@ -38,9 +38,9 @@ module.exports = {
 
       // give me methods
       'ClassDeclaration MethodDefinition': function(node) {
-        console.log(arguments);
         // render 函数
         if (node.key.type === 'Identifier' && node.key.name === 'render') {
+          // TODO: check null
           if (node.value.body.body.length > 1) {
             return context.report({
               node: node.value.body,

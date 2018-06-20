@@ -1,20 +1,12 @@
 /**
- * @fileoverview eslint plugin for URC(universal react component)
- * @author 薛定谔的猫
+ * @author 唯然
+ * See LICENSE file in root directory for full license.
  */
 'use strict';
 
-//------------------------------------------------------------------------------
-// Requirements
-//------------------------------------------------------------------------------
-
-const requireIndex = require('requireindex');
-
-//------------------------------------------------------------------------------
-// Plugin Definition
-//------------------------------------------------------------------------------
-
-
-// import all rules in lib/rules
-module.exports.rules = requireIndex(__dirname + '/rules');
-
+module.exports = {
+  configs: {
+    recommended: require('./configs/recommended.js'),
+  },
+  rules: require('./rules.js'),
+};
