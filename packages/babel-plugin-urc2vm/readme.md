@@ -12,22 +12,36 @@
          alt="dependency status">
   </a>
 </p>
+# @urc/babel-plugin-urc2vm
 
-# node
+## Installation
 
-> a Node.js boilerplate repo, with some useful deps.
+```sh
+$ npm install @urc/babel-plugin-urc2vm
+```
 
 ## Usage
 
-```bash
-$ npm install -g degit
-$ degit tplss/node
+### Via `.babelrc` (Recommended)
+
+**.babelrc**
+
+```json
+{
+  "plugins": ["urc2vm"]
+}
 ```
 
-## Features
+### Via CLI
 
-+ eslint (eslint-config-egg + eslint-plugin-node)
-+ husky
-+ rollup
-+ mocha
-+ MIT license
+```sh
+$ babel --plugins urc2vm script.js
+```
+
+### Via Node API
+
+```javascript
+require('babel').transform('code', {
+  plugins: ['urc2vm']
+});
+```
