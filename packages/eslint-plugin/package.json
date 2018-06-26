@@ -3,8 +3,11 @@
   "version": "0.0.0-1",
   "description": "eslint plugin for URC(universal react component)",
   "keywords": [
+    "react",
+    "ssr",
+    "universal",
+    "urc",
     "eslint",
-    "eslintplugin",
     "eslint-plugin"
   ],
   "author": "薛定谔的猫",
