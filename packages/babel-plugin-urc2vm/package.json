@@ -5,7 +5,7 @@
   "description": "babel-plugin for urc to vm",
   "main": "./lib/index.js",
   "scripts": {
-    "lint": "eslint lib tests/lib",
+    "lint": "eslint lib tests/lib --fix",
     "test": "node tests/lib/index.js"
   },
   "files": [

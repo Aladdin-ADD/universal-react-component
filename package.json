@@ -5,7 +5,6 @@
   "description": "Node.js boilerplate",
   "scripts": {
     "lint": "npm run lint:eslint-plugin && npm run lint:babel-plugin-urc2vm",
-    "lint:fix": "npm run lint:eslint-plugin -- --fix && npm run lint:babel-plugin-urc2vm -- --fix",
     "test": "npm run test:eslint-plugin && npm run test:babel-plugin-urc2vm",
     "lint:eslint-plugin": "cd packages/eslint-plugin && npm run lint",
     "lint:babel-plugin-urc2vm": "cd packages/babel-plugin-urc2vm && npm run lint",
@@ -19,6 +18,7 @@
     "eslint-config-egg": "^7.0.0",
     "eslint-plugin-node": "^6.0.1",
     "husky": "^1.0.0-rc.9",
+    "lint-staged": "^7.2.0",
     "mocha": "^5.2.0"
   },
   "keywords": [
@@ -48,13 +48,12 @@
       }
     ]
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint -- --fix"
-    }
-  },
+  "husky": {},
   "lint-staged": {
-    "*.js": ["eslint --fix", "git add"]
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
   },
   "license": "MIT",
   "engines": {

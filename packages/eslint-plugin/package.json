@@ -10,7 +10,7 @@
   "author": "薛定谔的猫",
   "main": "lib/index.js",
   "scripts": {
-    "lint": "eslint lib tests",
+    "lint": "eslint lib tests --fix",
     "test": "mocha tests --recursive"
   },
   "peerDependencies": {
