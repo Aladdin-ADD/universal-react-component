@@ -40,5 +40,5 @@ class Comp extends React.Component{
 ## TODO
 
 + 在构建前通过 eslint 来检测是否满足 URC 标准。([@urc/eslint-plugin](https://www.npmjs.com/package/@urc/eslint-plugin))
-+ 约束 jsx 能力，从而可以生成其它 template 格式的模板文件(e.g. velocity)。([@urc/babel-plugin-urc2vm](https://www.npmjs.com/package/@urc/babel-plugin-urc2vm))
++ 约束 jsx 能力，从而可以生成其它 template 格式的模板文件(e.g. velocity)。([@urc/urc2vm](https://www.npmjs.com/package/@urc/babel-plugin-urc2vm))
 + 已有组件： n/w :(
