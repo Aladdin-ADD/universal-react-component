@@ -15,9 +15,7 @@ module.exports = {
       recommended: false,
     },
     fixable: null, // or "code" or "whitespace"
-    schema: [
-      // fill in your schema
-    ],
+    schema: [],
   },
 
   create(context) {

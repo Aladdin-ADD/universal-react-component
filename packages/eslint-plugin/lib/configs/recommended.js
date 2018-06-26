@@ -1,4 +1,5 @@
 'use strict';
+// TODO: https://eslint.org/docs/rules/no-restricted-globals
 module.exports = {
   parser: 'babel-eslint',
   parserOptions: {
