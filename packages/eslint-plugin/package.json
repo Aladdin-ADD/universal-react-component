@@ -1,6 +1,6 @@
 {
   "name": "@urc/eslint-plugin",
-  "version": "0.0.0-1",
+  "version": "0.0.0-2",
   "description": "eslint plugin for URC(universal react component)",
   "keywords": [
     "react",
