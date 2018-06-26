@@ -1,5 +1,6 @@
 {
   "name": "urc",
+  "private": true,
   "version": "0.0.0",
   "author": "薛定谔的猫 <hh_2013@foxmail.com>",
   "description": "Node.js boilerplate",
