@@ -25,7 +25,7 @@ Add `@urc/eslint-plugin` to the plugins section of your `.eslintrc` configuratio
 
 ## Supported Rules
 
-* Fill in provided rules here
+* TODO: Fill in provided rules here
 
 
 
