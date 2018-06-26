@@ -4,8 +4,11 @@
   "author": "薛定谔的猫 <hh_2013@foxmail.com>",
   "description": "Node.js boilerplate",
   "scripts": {
+    "install:all": "npm i && npm run install:eslint-plugin && npm run install:babel-plugin-urc2vm",
     "lint": "npm run lint:eslint-plugin && npm run lint:babel-plugin-urc2vm",
     "test": "npm run test:eslint-plugin && npm run test:babel-plugin-urc2vm",
+    "install:eslint-plugin": "cd packages/eslint-plugin && npm i",
+    "install:babel-plugin-urc2vm": "cd packages/babel-plugin-urc2vm && npm i",
     "lint:eslint-plugin": "cd packages/eslint-plugin && npm run lint",
     "lint:babel-plugin-urc2vm": "cd packages/babel-plugin-urc2vm && npm run lint",
     "test:eslint-plugin": "cd packages/eslint-plugin && npm run test",
