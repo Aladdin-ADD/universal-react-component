@@ -12,12 +12,12 @@
          alt="dependency status">
   </a>
 </p>
-# @urc/babel-plugin-urc2vm
+# @ali/urc2vm
 
 ## Installation
 
 ```sh
-$ npm install @urc/babel-plugin-urc2vm
+$ npm install @ali/urc2vm
 ```
 
 ## Usage

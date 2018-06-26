@@ -1,5 +1,5 @@
 {
-  "name": "@urc/babel-plugin-urc2vm",
+  "name": "@ali/urc2vm",
   "version": "0.0.0-0",
   "author": "薛定谔的猫 <hh_2013@foxmail.com>",
   "description": "babel-plugin for urc to vm",
