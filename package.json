@@ -10,7 +10,8 @@
     "lint:eslint-plugin": "cd packages/eslint-plugin && npm run lint",
     "lint:babel-plugin-urc2vm": "cd packages/babel-plugin-urc2vm && npm run lint",
     "test:eslint-plugin": "cd packages/eslint-plugin && npm run test",
-    "test:babel-plugin-urc2vm": "cd packages/babel-plugin-urc2vm && npm run test"
+    "test:babel-plugin-urc2vm": "cd packages/babel-plugin-urc2vm && npm run test",
+    "precommit": "lint-staged"
   },
   "dependencies": {},
   "devDependencies": {
@@ -51,6 +52,9 @@
     "hooks": {
       "pre-commit": "npm run lint -- --fix"
     }
+  },
+  "lint-staged": {
+    "*.js": ["eslint --fix", "git add"]
   },
   "license": "MIT",
   "engines": {
